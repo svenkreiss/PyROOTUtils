@@ -6,6 +6,13 @@ It also has a utils package for `ModelConfig` -- `ModelConfigUtils` -- that is i
 
 Alignment options for text and legends are more intuitive, for example: `halign="right"`, `valign="bottom"` is translated into ROOT's number codes that represent the alignment.
 
+# Install
+
+Setup your `virtualenv` and install this package from git
+
+```
+pip install git+https://github.com/svenkreiss/PyROOTUtils.git
+```
 
 # Simple Example
 
