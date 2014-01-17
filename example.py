@@ -1,7 +1,7 @@
 
 import ROOT
 import PyROOTUtils
-import PyROOTUtils.style
+PyROOTUtils.style()
 
 # to prevent python garbage collection of objects that still need to drawn
 container = []
