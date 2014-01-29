@@ -1,5 +1,6 @@
 
 import ROOT
+import importlib
 
 def addOptionsToOptParse( parser ):
    # standard options for ModelConfig
@@ -43,7 +44,7 @@ def callHooks( options, f,w,mc,data, type ):
 
    for pName in options.plugins.split(","):
       try:
-         plugin = __import__( pName )
+         plugin = importlib.import_module( pName )
          if hasattr( plugin,type ):
             print( '--- Plugin "'+pName+'": '+type+'() ---' )
             r = getattr( plugin,type )( f,w,mc,data )
