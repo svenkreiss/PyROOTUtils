@@ -2,6 +2,20 @@
 import ROOT
 import importlib
 
+
+plugins = {}
+def getPlugin( name ):
+   if name in plugins: return plugins[name]
+
+   try:
+      plugins[name] = importlib.import_module( name )
+   except ImportError:
+      print( "ERROR: Did not find plugin: "+str(pName) )
+      plugins[name] = None
+
+   return plugins[name]
+
+
 def addOptionsToOptParse( parser ):
    # standard options for ModelConfig
    parser.add_option("-i", "--input", help="root file", type="string", dest="input", default="results/example_combined_GaussExample_model.root")
@@ -10,18 +24,18 @@ def addOptionsToOptParse( parser ):
    parser.add_option("-d", "--dataName", help="data name", type="string", dest="dataName", default="obsData")
    
    # for example for asimov data runs
-   parser.add_option(      "--loadSnapshots", help="loads this comma separated list of snapshots", dest="loadSnapshots", default=None )
+   parser.add_option(      "--loadSnapshots", help="loads this comma separated list of snapshots", dest="loadSnapshots", default=None)
 
    # for modifications
-   parser.add_option(      "--setConstant", help="Set comma separated list of parameters to constant. Example: \"mu=1,mH=125\".", dest="setConstant", default=False )   
-   parser.add_option(      "--setFloating", help="Set comma separated list of parameters to floating. Example: \"mu=1,mH=125\".", dest="setFloating", default=False )   
-   parser.add_option(      "--overwritePOI", help="Force to take comma separated list of parameters with value for poi. Example: \"mu=1,mH=125\" will make these two the poi.", dest="overwritePOI", default=False )
-   parser.add_option(      "--overwriteRange", help="Overwrite range. Example: \"mu=[-5:10],mH=[120:130]\".", dest="overwriteRange", default=False )
-   parser.add_option(      "--overwriteBins", help="Overwrite bins. Example: \"mu=5,mH=100\".", dest="overwriteBins", default=False )
+   parser.add_option(      "--setConstant", help="Set comma separated list of parameters to constant. Example: \"mu=1,mH=125\".", dest="setConstant", default=False)   
+   parser.add_option(      "--setFloating", help="Set comma separated list of parameters to floating. Example: \"mu=1,mH=125\".", dest="setFloating", default=False)   
+   parser.add_option(      "--overwritePOI", help="Force to take comma separated list of parameters with value for poi. Example: \"mu=1,mH=125\" will make these two the poi.", dest="overwritePOI", default=False)
+   parser.add_option(      "--overwriteRange", help="Overwrite range. Example: \"mu=[-5:10],mH=[120:130]\".", dest="overwriteRange", default=False)
+   parser.add_option(      "--overwriteBins", help="Overwrite bins. Example: \"mu=5,mH=100\".", dest="overwriteBins", default=False)
    
    # for plugins
-   parser.add_option(      "--plugins", help="comma separated list of plugins", dest="plugins", default=None )
-
+   parser.add_option(      "--plugins", help="comma separated list of plugins", dest="plugins", default=None)
+   parser.add_option(      "--pluginOptions", help="Optional options for plugins", dest="pluginOptions", default=None)
 
 
 def varsDictFromString( str ):
@@ -37,22 +51,40 @@ def varsDictFromString( str ):
    return vars
 
 
+def configurePlugins( options ):
+   if not options.pluginOptions: return
+   if not options.plugins: return
+   
+   print( "" )
+
+   for pName in options.plugins.split(","):
+      plugin = getPlugin( pName )
+      if not plugin: continue
+
+      if hasattr( plugin,'configure' ):
+         print( '--- Plugin "'+pName+'": configure() ---' )
+         getattr( plugin,'configure' )( options.pluginOptions )
+      else:
+         print( '--- Plugin "'+pName+'" does not contain configure() ---' )
+
+   print( "" )
+
+
 def callHooks( options, f,w,mc,data, type ):
    if not options.plugins: return (f,w,mc,data)
    
    print( "" )
 
    for pName in options.plugins.split(","):
-      try:
-         plugin = importlib.import_module( pName )
-         if hasattr( plugin,type ):
-            print( '--- Plugin "'+pName+'": '+type+'() ---' )
-            r = getattr( plugin,type )( f,w,mc,data )
-            if r: f,w,mc,data = r
-         else:
-            print( '--- Plugin "'+pName+'" does not contain '+type+'() ---' )
-      except ImportError:
-         print( "ERROR: Did not find plugin: "+str(pName) )
+      plugin = getPlugin( pName )
+      if not plugin: continue
+
+      if hasattr( plugin,type ):
+         print( '--- Plugin "'+pName+'": '+type+'() ---' )
+         r = getattr( plugin,type )( f,w,mc,data )
+         if r: f,w,mc,data = r
+      else:
+         print( '--- Plugin "'+pName+'" does not contain '+type+'() ---' )
 
    print( "" )
    return (f,w,mc,data)
@@ -62,6 +94,7 @@ def callHooks( options, f,w,mc,data, type ):
 def apply( options, f,w,mc,data ):
    """ Todo: use varsDictFromString() here. """
 
+   configurePlugins( options )
    f,w,mc,data = callHooks( options, f,w,mc,data, type="preprocess" )
 
    if options.overwriteRange:
