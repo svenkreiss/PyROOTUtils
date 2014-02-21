@@ -6,30 +6,58 @@ PyROOTUtils.style()
 # to prevent python garbage collection of objects that still need to drawn
 container = []
 
+
+
+def content( mHBestFit=130.0, height1SigmaLabel=10.0, color=ROOT.kBlue ):
+	# make mock curve
+	linSpace = [ 110 + i*40.0/1000.0 for i in range(1000) ]
+	likelihood          = [ (x, (x-mHBestFit)*(x-mHBestFit)/25.0) for x in linSpace ]
+	likelihood_statOnly = [ (x, (x-mHBestFit)*(x-mHBestFit)/20.0) for x in linSpace ]
+	# draw curve
+	g = PyROOTUtils.Graph( likelihood, lineColor=color, lineWidth=2 )
+	g.Draw()
+	g_statOnly = PyROOTUtils.Graph( likelihood_statOnly, lineColor=color, lineWidth=2, lineStyle=ROOT.kDashed )
+	g_statOnly.Draw()
+
+	# find 68% CL interval from likelihood
+	low,high = g.getFirstIntersectionsWithValue(1.0)
+	vLineM1Sigma = PyROOTUtils.DrawVLine( low, lineStyle=ROOT.kDashed, lineWidth=1, lineColor=color )
+	vLineP1Sigma = PyROOTUtils.DrawVLine( high, lineStyle=ROOT.kDashed, lineWidth=1, lineColor=color )
+	hLine1Sigma = PyROOTUtils.DrawLine( low,height1SigmaLabel,high,height1SigmaLabel, lineWidth=5, lineColor=color )
+	label1Sigma = PyROOTUtils.DrawText( mHBestFit,height1SigmaLabel, ("#lower[-0.5]{%.1f^{%+.1f}_{%+.1f} GeV}"%(mHBestFit,high-mHBestFit,low-mHBestFit)), NDC=False, textSize=0.025, halign="center", valign="bottom", textColor=color )
+
+	container.append( (g,g_statOnly,vLineM1Sigma,vLineP1Sigma,hLine1Sigma,label1Sigma) )
+
+	return (g,g_statOnly)
+
+
 def main():
 	canvas = ROOT.TCanvas("c","c",600,450)
-	axes = canvas.DrawFrame( -90,-90,90,90 )
-	axes.GetXaxis().SetTitle( "x [km]" )
-	axes.GetYaxis().SetTitle( "y [km]" )
+	axes = canvas.DrawFrame( 105,0, 160,12 )
+	axes.GetXaxis().SetTitle( "m_{H} [GeV]" )
+	axes.GetYaxis().SetTitle( "-2 ln #Lambda" )
 
-	hLine = PyROOTUtils.DrawHLine( 0.0, lineStyle=ROOT.kDotted, lineWidth=1 )
-	v = PyROOTUtils.ModelConfigUtils.varsDictFromString('alpha=0.1')
-	bla = PyROOTUtils.DrawText( 0.2, 0.7, "This is just random text\nto show how easy it can be\nto write aligned multi-line text\nand how varsDictFromString('alpha=0.1') works: "+str(v), textSize=0.035)
+	hLine68 = PyROOTUtils.DrawHLine( 1.0, lineStyle=ROOT.kDashed, lineWidth=1 )
+	hLine95 = PyROOTUtils.DrawHLine( 4.0, lineStyle=ROOT.kDotted, lineWidth=1 )
 
-	g = PyROOTUtils.Graph( [(-50,-50),(50,-10)], lineColor=ROOT.kBlue, lineWidth=2 )
-	g.Draw()
+	g,g_statOnly = content()
+	g2,g2_statOnly = content( 123.0, 8.0, ROOT.kRed )
 
-	l1 = PyROOTUtils.Legend( 0.2,0.2, textSize=0.035, valign="bottom" )
-	l1.AddEntry( hLine, "line at y=0", "L" )
+	# create black line proxies for legend
+	expectedLine = PyROOTUtils.DrawHLine( -10.0, lineWidth=2 )
+	statOnlyLine = PyROOTUtils.DrawHLine( -10.0, lineWidth=2, lineStyle=ROOT.kDashed )
+
+	l1 = PyROOTUtils.Legend( 0.94,0.5, textSize=0.035, valign="bottom", halign="right" )
+	l1.AddEntry( expectedLine, "expected", "L" )
+	l1.AddEntry( statOnlyLine, "stat only", "L" )
+	l1.AddEntry( hLine95, "95% CL", "L" )
+	l1.AddEntry( hLine68, "68% CL", "L" )
 	l1.Draw()
 
-	l2 = PyROOTUtils.Legend( 0.9,0.9, textSize=0.035, halign="right" )
-	l2.AddEntry( g, "a blue line", "L" )
-	l2.Draw()
-
+	canvas.SaveAs( 'doc/example.svg' )
 	canvas.SaveAs( 'doc/example.png' )
-	print( 'Image saved to doc/example.png.' )
-	container.append( (hLine,bla,g,l1,l2) )
+	canvas.SaveAs( 'doc/example.eps' )
+	print( 'Image saved to doc/example.{svg|png|eps}.' )
 
 
 if __name__ == "__main__":

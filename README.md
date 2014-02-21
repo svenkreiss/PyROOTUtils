@@ -16,6 +16,10 @@ pip install git+https://github.com/svenkreiss/PyROOTUtils.git
 
 # Simple Example
 
-[example.py](example.py)
+[.py source](example.py),
+[svg](doc/example.svg),
+[eps](doc/example.eps),
+[png](doc/example.png)
 
-![exampleImage](doc/example.png)
+![svg](doc/example.svg)
+
