@@ -20,6 +20,7 @@ pip install git+https://github.com/svenkreiss/PyROOTUtils.git
 [svg](doc/example.svg),
 [eps](doc/example.eps),
 [png](doc/example.png)
+... use eps for higher quality.
 
-![svg](doc/example.svg)
+![png](doc/example.png)
 

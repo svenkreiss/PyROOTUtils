@@ -5,7 +5,7 @@ doc/example.svg
 </title>
 <desc>
 Creator: ROOT Version 5.34/14
-CreationDate: Fri Feb 21 15:07:38 2014</desc>
+CreationDate: Fri Feb 21 15:19:42 2014</desc>
 <defs>
 </defs>
 <rect x="0" y="0" width="567" height="402" fill="white"/>
@@ -185,27 +185,18 @@ m
 <path d="M525,20h 14" fill="none" stroke="black"/>
 <path d="M91,311h 448" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M91,232h 448" fill="none" stroke="black" stroke-dasharray=" 1, 2"/>
-<path d="M153,20z" fill="none" stroke="#0000ff" stroke-width="2"/>
-<path d="M153,20l 1, 1v 3l 1, 2v 3l 1, 1v 3l 1, 1v 5l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 2v 2l 1, 2v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 4l 1, 1v 2l 1, 2v 2l 1, 2v 2l 1, 1v 3l 1, 1v 2l 1, 2v 2l 1, 1v 3l 1, 1v
- 2l 1, 2v 2l 1, 1v 2l 1, 2v 2l 1, 1v 2l 1, 2v 2l 1, 1v 3l 1, 2v 2l 1, 1v 2l 1, 1v 3l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 3l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 3l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 1l 1, 1v 2l 1, 1v 2l 1,
- 1v 2l 1, 1v 1l 1, 1v 2l 1, 1v 2l 1, 1v 1l 1, 1v 2l 1, 1v 2h 1v 3l 1, 1v 1l 1, 1v 2l 1, 1v 1l 1, 1v 2h 1v 2l 1, 1v 1l 1, 1v 2h 1v 2l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 2h 1v 2h 1v 2l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v
- 1l 1, 1v 1h 1v 1l 1, 1v 1l 1, 1v 1h 1v 2h 1v 2h 1v 1l 1, 1v 1h 1v 1l 1, 1v 1h 1v 1l 1, 1v 1h 1v 1l 1, 1v 1h 1v 1l 1, 1l 1, 1v 1h 1v 1h 1v 1l 1, 1l 1, 1v 1h 1v 1h 1v 1l 1, 1l 1, 1l 1, 1l 1, 1l 1, 1l 1, 1h 1v 1h 1v 1h 1v 1h 1v 1h 1l 1, 1l 1, 1h 1v 1h
- 1l 1, 1h 1l 1, 1h 1v 1h 2l 1, 1h 2v 1h 3v 1h 5l 1, 1h 5v -1h 5l 1, -1h 3v -1h 2v -1h 2l 1, -1h 1v -1h 2v -1h 1v -1h 2v -1h 1v -1h 1l 1, -1l 1, -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1l 1, -1l 1, -1l 1, -1v -1h 1v -1h 1v -1h 1v -1l
- 1, -1v -1h 1v -1h 1v -1l 1, -1v -1h 1v -1l 1, -1v -1h 1v -2h 1v -1l 1, -1v -1h 1v -1l 1, -1v -1h 1v -1l 1, -1v -1l 1, -1v -1h 1v -2h 1v -1l 1, -1v -1l 1, -1v -1l 1, -1v -1h 1v -2h 1v -2h 1v -2l 1, -1v -1l 1, -1v -1l 1, -1v -1l 1, -1v -1l 1, -1v -1l
- 1, -1v -2h 1v -2h 1v -2l 1, -1v -1l 1, -1v -1l 1, -1v -2l 1, -1v -1l 1, -1v -1l 1, -1v -3h 1v -2l 1, -1v -1l 1, -1v -2l 1, -1v -1l 1, -1v -2l 1, -1v -2h 1v -2l 1, -1v -2l 1, -1v -2h 1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2h 1v -3l 1, -1v -2l 1, -1v
- -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -2v -2l 1, -1v -2l 1, -1v -3l 1, -1v -3l 1, -1v -2l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -1v -3l 1,
- -1v -2l 1, -1v -3l 1, -1v -3l 1, -1v -2l 1, -1v -4l 1, -1v -3l 1, -1v -3l 1, -1v -3l 1, -1v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -3l 1, -1v -4l 1, -2v -2l 1, -2v -3l 1, -1v -3l 1, -1v -3l
- 1, -2v -2l 1, -2v -3l 1, -1v -3" fill="none" stroke="#0000ff" stroke-width="2"/>
-<path d="M168,20" fill="none" stroke="#0000ff" stroke-width="2" stroke-dasharray=" 3, 3"/>
-<path d="M168,20l 1, 2v 3l 1, 2v 3l 1, 2v 4l 1, 2v 3l 1, 2v 3l 1, 2v 3l 1, 1v 3l 1, 2v 3l 1, 1v 4l 1, 1v 3l 1, 2v 3l 1, 1v 3l 1, 2v 2l 1, 2v 3l 1, 1v 3l 1, 2v 3l 1, 1v 4l 1, 2v 2l 1, 2v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v
- 3l 1, 1v 3l 1, 1v 3l 1, 1v 2l 1, 2v 2l 1, 1v 3l 1, 1v 4l 1, 1v 2l 1, 2v 2l 1, 1v 3l 1, 1v 2l 1, 1v 3l 1, 1v 2l 1, 1v 3l 1, 1v 2l 1, 1v 2l 1, 1v 3l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 3l 1, 1v 3l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2h 1v 2l 1, 1v 2l 1, 1v
- 2l 1, 1v 2l 1, 1v 2l 1, 1v 1l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 1l 1, 1v 2l 1, 1v 1l 1, 1v 2h 1v 2l 1, 1v 1l 1, 1v 1l 1, 1v 2h 1v 2l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 2l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1h 1v 2h 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v
- 1h 1v 1l 1, 1v 1l 1, 1v 1h 1v 1l 1, 1v 1h 1v 2h 1v 1h 1v 1l 1, 1v 1h 1v 1h 1v 1l 1, 1l 1, 1v 1h 1v 1h 1v 1h 1v 1h 1v 1h 1v 1h 1v 1h 1v 1l 1, 1h 1v 1h 1v 1h 1l 1, 1h 1v 1h 1v 1h 2v 1h 2v 1h 2v 1h 2l 1, 1h 5v 1h 5v -1h 5v -1h 2l 1, -1h 2v -1h 2v -1h
- 1l 1, -1h 1v -1h 1v -1h 1v -1h 1l 1, -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1l 1, -1l 1, -1v -1h 1v -1h 1v -1h 1v -2h 1v -1l 1, -1l 1, -1v -1h 1v -1l 1, -1v -1h 1v -1l 1, -1v -1l 1, -1v -1h 1v -1l 1, -1v -1l 1, -1v -1h 1v -2h 1v -1l 1,
- -1v -2h 1v -2h 1v -2h 1v -2h 1v -2h 1v -2h 1v -2h 1v -2l 1, -1v -1l 1, -1v -1l 1, -1v -2h 1v -2l 1, -1v -1l 1, -1v -1l 1, -1v -2l 1, -1v -2l 1, -1v -2h 1v -2l 1, -1v -2l 1, -1v -1l 1, -1v -2l 1, -1v -2l 1, -1v -1l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1,
- -1v -2l 1, -1v -1l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -2v -2l 1, -1v -2l 1, -1v -2l 1, -2v -2l 1, -1v -2l 1, -1v -3l 1, -1v -4l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -2v -2l 1, -1v -3l
- 1, -1v -3l 1, -1v -2l 1, -2v -2l 1, -2v -2l 1, -1v -3l 1, -1v -3l 1, -1v -3l 1, -1v -3l 1, -1v -4l 1, -2v -3l 1, -1v -3l 1, -1v -3l 1, -1v -3l 1, -2v -2l 1, -2v -3l 1, -1v -3l 1, -2v -3l 1, -1v -3l 1, -1v -3l 1, -2v -3l 1, -1v -3l 1, -2v -3l 1, -2v
- -3l 1, -1v -5l 1, -1v -4l 1, -1v -3l 1, -2v -3l 1, -2v -3l 1, -2v -3l 1, -1v -4" fill="none" stroke="#0000ff" stroke-width="2" stroke-dasharray=" 3, 3"/>
+<path d="M153,20l 1, 4" fill="none" stroke="#0000ff" stroke-width="2"/>
+<path d="M154,24l 2, 7l 1, 8l 2, 7l 2, 7l 1, 7l 2, 6l 2, 7l 1, 7l 2, 6l 2, 7l 1, 6l 2, 7l 1, 6l 2, 6l 2, 6l 1, 6l 2, 6l 2, 6l 1, 5l 2, 6l 1, 6l 2, 5l 2, 5l 1, 6l 2, 5l 2, 5l 1, 5l 2, 5l 1, 5l 2, 5l 2, 4l 1, 5l 2, 5l 2, 4l 1, 4l 2, 5l 1, 4l 2, 4l 2,
+ 4l 1, 4l 2, 4l 2, 4l 1, 3l 2, 4l 2, 3l 1, 4l 2, 3l 1, 3l 2, 4l 2, 3l 1, 3l 2, 3l 2, 2l 1, 3l 2, 3l 1, 2l 2, 3l 2, 2l 1, 3l 2, 2l 2, 2l 1, 2l 2, 2l 1, 2l 2, 2l 2, 2l 1, 1l 2, 2l 2, 1l 1, 2l 2, 1l 1, 1l 2, 1l 2, 2h 1l 2, 1l 2, 1l 1, 1l 2, 1h 2l 1, 1h
+ 5l 2, 1h 3l 2, -1h 4l 2, -1h 2l 1, -1l 2, -1l 2, -1l 1, -1h 2l 1, -2l 2, -1l 2, -1l 1, -1l 2, -2l 2, -1l 1, -2l 2, -1l 1, -2l 2, -2l 2, -2l 1, -2l 2, -2l 2, -2l 1, -2l 2, -3l 2, -2l 1, -3l 2, -2l 1, -3l 2, -3l 2, -2l 1, -3l 2, -3l 2, -3l 1, -4l 2,
+ -3l 1, -3l 2, -4l 2, -3l 1, -4l 2, -3l 2, -4l 1, -4l 2, -4l 1, -4l 2, -4l 2, -4l 1, -5l 2, -4l 2, -4l 1, -5l 2, -5l 1, -4l 2, -5l 2, -5l 1, -5l 2, -5l 2, -5l 1, -5l 2, -6l 2, -5l 1, -5l 2, -6l 1, -6l 2, -5l 2, -6l 1, -6l 2, -6l 2, -6l 1, -6l 2, -6l
+ 1, -7l 2, -6l 2, -7l 1, -6l 2, -7l 2, -7l 1, -6l 2, -7l 1, -7l 2, -7l 2, -8l 1, -7l 1, -4" fill="none" stroke="#0000ff" stroke-width="2"/>
+<path d="M168,20l 1, 4" fill="none" stroke="#0000ff" stroke-width="2" stroke-dasharray=" 3, 3"/>
+<path d="M169,24l 2, 8l 1, 8l 2, 8l 1, 7l 2, 8l 2, 8l 1, 7l 2, 7l 2, 8l 1, 7l 2, 7l 1, 7l 2, 7l 2, 6l 1, 7l 2, 6l 2, 7l 1, 6l 2, 6l 1, 6l 2, 6l 2, 6l 1, 6l 2, 6l 2, 5l 1, 6l 2, 5l 1, 5l 2, 6l 2, 5l 1, 5l 2, 4l 2, 5l 1, 5l 2, 4l 2, 5l 1, 4l 2, 4l 1,
+ 4l 2, 4l 2, 4l 1, 4l 2, 3l 2, 4l 1, 3l 2, 4l 1, 3l 2, 3l 2, 3l 1, 3l 2, 3l 2, 3l 1, 2l 2, 3l 1, 2l 2, 2l 2, 2l 1, 2l 2, 2l 2, 2l 1, 2l 2, 2l 1, 1l 2, 2l 2, 1l 1, 1l 2, 1l 2, 1l 1, 1l 2, 1l 2, 1h 1l 2, 1h 3l 2, 1h 3l 2, -1h 3l 1, -1h 2l 2, -1l 1, -1l
+ 2, -1l 2, -1l 1, -1l 2, -1l 1, -1l 2, -2l 2, -1l 1, -2l 2, -2l 2, -2l 1, -2l 2, -2l 1, -2l 2, -2l 2, -2l 1, -3l 2, -2l 2, -3l 1, -3l 2, -3l 2, -3l 1, -3l 2, -3l 1, -4l 2, -3l 2, -4l 1, -3l 2, -4l 2, -4l 1, -4l 2, -4l 1, -4l 2, -4l 2, -5l 1, -4l 2,
+ -5l 2, -5l 1, -4l 2, -5l 1, -5l 2, -6l 2, -5l 1, -5l 2, -6l 2, -5l 1, -6l 2, -6l 1, -6l 2, -6l 2, -6l 1, -6l 2, -6l 2, -7l 1, -6l 2, -7l 2, -6l 1, -7l 2, -7l 1, -7l 2, -7l 2, -8l 1, -7l 2, -7l 2, -8l 1, -8l 2, -7l 1, -8l 2, -8l 2, -8v -4"
+ fill="none" stroke="#0000ff" stroke-width="2" stroke-dasharray=" 3, 3"/>
 <path d="M253,338v -318" fill="none" stroke="#0000ff" stroke-dasharray=" 3, 3"/>
 <path d="M335,338v -318" fill="none" stroke="#0000ff" stroke-dasharray=" 3, 3"/>
 <path d="M253,73h 82" fill="none" stroke="#0000ff" stroke-width="5"/>
@@ -221,26 +212,21 @@ m
 <text x="265" y="61" fill="#0000ff" font-size="9" font-family="Helvetica">
 130.0
 </text>
-<path d="M131,159l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 3l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 3l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 1l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 1l 1, 1v 2l 1, 1v 2l 1, 1v 1l 1, 1v 2l 1, 1v 2h 1v 3l
- 1, 1v 1l 1, 1v 2l 1, 1v 1l 1, 1v 2h 1v 2l 1, 1v 1l 1, 1v 2h 1v 2l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 2h 1v 2h 1v 2l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1h 1v 1l 1, 1v 1l 1, 1v 1h 1v 2h 1v 2h 1v 1l 1, 1v 1h 1v
- 1l 1, 1v 1h 1v 1l 1, 1v 1h 1v 1l 1, 1v 1h 1v 1l 1, 1l 1, 1v 1h 1v 1h 1v 1l 1, 1l 1, 1v 1h 1v 1h 1v 1l 1, 1l 1, 1l 1, 1l 1, 1l 1, 1l 1, 1h 1v 1h 1v 1h 1v 1h 1v 1h 1l 1, 1l 1, 1h 1v 1h 1l 1, 1h 1l 1, 1h 1v 1h 2l 1, 1h 2v 1h 3v 1h 5l 1, 1h 5v -1h 5l 1,
- -1h 3v -1h 2v -1h 2l 1, -1h 1v -1h 2v -1h 1v -1h 2v -1h 1v -1h 1l 1, -1l 1, -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1l 1, -1l 1, -1l 1, -1v -1h 1v -1h 1v -1h 1v -1l 1, -1v -1h 1v -1h 1v -1l 1, -1v -1h 1v -1l 1, -1v -1h 1v -2h 1v -1l
- 1, -1v -1h 1v -1l 1, -1v -1h 1v -1l 1, -1v -1l 1, -1v -1h 1v -2h 1v -1l 1, -1v -1l 1, -1v -1l 1, -1v -1h 1v -2h 1v -2l 1, -1v -1l 1, -1v -1l 1, -1v -1l 1, -1v -1l 1, -1v -1l 1, -1v -1l 1, -1v -2h 1v -2h 1v -2l 1, -1v -1l 1, -1v -1l 1, -1v -2l 1, -1v
- -1l 1, -1v -1l 1, -1v -3h 1v -2l 1, -1v -1l 1, -1v -2l 1, -1v -1l 1, -1v -2l 1, -1v -2h 1v -2l 1, -1v -2l 1, -1v -2h 1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2h 1v -3l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v
- -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -2v -2l 1, -1v -2l 1, -1v -3l 1, -1v -3l 1, -1v -2l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -1v -3l 1, -1v -3l 1, -1v -2l 1, -1v -4l 1, -1v -3l 1,
- -1v -3l 1, -1v -3l 1, -1v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -2l 1, -2v -3l 1, -1v -4l 1, -2v -2l 1, -2v -3l 1, -1v -3l 1, -1v -3l 1, -2v -2l 1, -2v -3l 1, -1v -3" fill="none" stroke="#ff0000"
- stroke-width="2"/>
-<path d="M131,114l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 3l 1, 1v 2l 1, 2v 2l 1, 1v 4l 1, 1v 3l 1, 1v 2l 1, 2v 2l 1, 1v 3l 1, 1v 2l 1, 1v 3l 1, 1v 2l 1, 1v 3l 1, 1v 2l 1, 1v 2l 1, 1v 3l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v
- 3l 1, 1v 3l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2h 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 1l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 2l 1, 1v 1l 1, 1v 2l 1, 1v 1l 1, 1v 2h 1v 2l 1, 1v 1l 1, 1v 1l 1, 1v 2h 1v 2l 1, 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 2l 1,
- 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1h 1v 2h 1v 1l 1, 1v 1l 1, 1v 1l 1, 1v 1h 1v 1l 1, 1v 1l 1, 1v 1h 1v 1l 1, 1v 1h 1v 2h 1v 1h 1v 1l 1, 1v 1h 1v 1h 1v 1l 1, 1l 1, 1v 1h 1v 1h 1v 1h 1v 1h 1v 1h 1v 1h 1v 1h 1v 1l 1, 1h 1v 1h 1v 1h 1l 1, 1h 1v 1h 1v 1h 2v
- 1h 2v 1h 2v 1h 2l 1, 1h 5v 1h 5v -1h 5v -1h 2l 1, -1h 2v -1h 2v -1h 1l 1, -1h 1v -1h 1v -1h 1v -1h 1l 1, -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1h 1v -1l 1, -1l 1, -1v -1h 1v -1h 1v -1h 1v -2h 1v -1l 1, -1l 1, -1v -1h 1v -1l 1, -1v -1h 1v -1l 1,
- -1v -1l 1, -1v -1h 1v -1l 1, -1v -1l 1, -1v -1h 1v -2h 1v -1l 1, -1v -2h 1v -2h 1v -2h 1v -2h 1v -2h 1v -2h 1v -2h 1v -2l 1, -1v -1l 1, -1v -1l 1, -1v -2h 1v -2l 1, -1v -1l 1, -1v -1l 1, -1v -3h 1v -2l 1, -1v -2h 1v -2l 1, -1v -2l 1, -1v -1l 1, -1v
- -2l 1, -1v -2l 1, -1v -1l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -1l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -1v -2l 1, -2v -2l 1, -1v -2l 1, -1v -2l 1, -2v -2l 1, -1v -2l 1, -1v -3l 1,
- -1v -4l 1, -1v -2l 1, -1v -3l 1, -1v -2l 1, -2v -2l 1, -1v -3l 1, -1v -3l 1, -1v -2l 1, -2v -2l 1, -2v -2l 1, -1v -3l 1, -1v -3l 1, -1v -3l 1, -1v -3l 1, -1v -4l 1, -2v -3l 1, -1v -3l 1, -1v -3l 1, -1v -3l 1, -2v -2l 1, -2v -3l 1, -1v -3l 1, -2v -3l
- 1, -1v -3l 1, -1v -3l 1, -2v -3l 1, -1v -3l 1, -2v -3l 1, -2v -3l 1, -1v -5l 1, -1v -4l 1, -1v -3l 1, -2v -3l 1, -2v -3l 1, -2v -3l 1, -1v -4" fill="none" stroke="#ff0000" stroke-width="2" stroke-dasharray=" 3, 3"/>
-<path d="M197,338v -318" fill="none" stroke="#ff0000" stroke-dasharray=" 3, 3"/>
+<path d="M96,20l 1, 4" fill="none" stroke="#ff0000" stroke-width="2"/>
+<path d="M97,24l 2, 7l 1, 8l 2, 7l 2, 7l 1, 7l 2, 6l 2, 7l 1, 7l 2, 6l 2, 7l 1, 6l 2, 7l 1, 6l 2, 6l 2, 6l 1, 6l 2, 6l 2, 6l 1, 5l 2, 6l 1, 6l 2, 5l 2, 5l 1, 6l 2, 5l 2, 5l 1, 5l 2, 5l 1, 5l 2, 5l 2, 4l 1, 5l 2, 5l 2, 4l 1, 4l 2, 5l 1, 4l 2, 4l 2, 4l
+ 1, 4l 2, 4l 2, 4l 1, 3l 2, 4l 2, 3l 1, 4l 2, 3l 1, 3l 2, 4l 2, 3l 1, 3l 2, 3l 2, 2l 1, 3l 2, 3l 1, 2l 2, 3l 2, 2l 1, 3l 2, 2l 2, 2l 1, 2l 2, 2l 1, 2l 2, 2l 2, 2l 1, 1l 2, 2l 2, 1l 1, 2l 2, 1l 1, 1l 2, 1l 2, 2h 1l 2, 1l 2, 1l 1, 1l 2, 1h 2l 1, 1h 5l
+ 2, 1h 3l 2, -1h 4l 2, -1h 2l 1, -1l 2, -1l 2, -1l 1, -1h 2l 1, -2l 2, -1l 2, -1l 1, -1l 2, -2l 2, -1l 1, -2l 2, -1l 1, -2l 2, -2l 2, -2l 1, -2l 2, -2l 2, -2l 1, -2l 2, -3l 2, -2l 1, -3l 2, -2l 1, -3l 2, -3l 2, -2l 1, -3l 2, -3l 2, -3l 1, -4l 2, -3l
+ 1, -3l 2, -4l 2, -3l 1, -4l 2, -3l 2, -4l 1, -4l 2, -4l 1, -4l 2, -4l 2, -4l 1, -5l 2, -4l 2, -4l 1, -5l 2, -5l 1, -4l 2, -5l 2, -5l 1, -5l 2, -5l 2, -5l 1, -5l 2, -6l 2, -5l 1, -5l 2, -6l 1, -6l 2, -5l 2, -6l 1, -6l 2, -6l 2, -6l 1, -6l 2, -6l 1,
+ -7l 2, -6l 2, -7l 1, -6l 2, -7l 2, -7l 1, -6l 2, -7l 1, -7l 2, -7l 2, -8l 1, -7l 1, -4" fill="none" stroke="#ff0000" stroke-width="2"/>
+<path d="M111,20l 1, 4" fill="none" stroke="#ff0000" stroke-width="2" stroke-dasharray=" 3, 3"/>
+<path d="M112,24l 2, 8l 1, 8l 2, 8l 1, 7l 2, 8l 2, 8l 1, 7l 2, 7l 2, 8l 1, 7l 2, 7l 1, 7l 2, 7l 2, 6l 1, 7l 2, 6l 2, 7l 1, 6l 2, 6l 1, 6l 2, 6l 2, 6l 1, 6l 2, 6l 2, 5l 1, 6l 2, 5l 1, 5l 2, 6l 2, 5l 1, 5l 2, 4l 2, 5l 1, 5l 2, 4l 2, 5l 1, 4l 2, 4l 1,
+ 4l 2, 4l 2, 4l 1, 4l 2, 3l 2, 4l 1, 3l 2, 4l 1, 3l 2, 3l 2, 3l 1, 3l 2, 3l 2, 3l 1, 2l 2, 3l 1, 2l 2, 2l 2, 2l 1, 2l 2, 2l 2, 2l 1, 2l 2, 2l 1, 1l 2, 2l 2, 1l 1, 1l 2, 1l 2, 1l 1, 1l 2, 1l 2, 1h 1l 2, 1h 3l 2, 1h 3l 2, -1h 3l 1, -1h 2l 2, -1l 1, -1l
+ 2, -1l 2, -1l 1, -1l 2, -1l 1, -1l 2, -2l 2, -1l 1, -2l 2, -2l 2, -2l 1, -2l 2, -2l 1, -2l 2, -2l 2, -2l 1, -3l 2, -2l 2, -3l 1, -3l 2, -3l 2, -3l 1, -3l 2, -3l 1, -4l 2, -3l 2, -4l 1, -3l 2, -4l 2, -4l 1, -4l 2, -4l 1, -4l 2, -4l 2, -5l 1, -4l 2,
+ -5l 2, -5l 1, -4l 2, -5l 1, -5l 2, -6l 2, -5l 1, -5l 2, -6l 2, -5l 1, -6l 2, -6l 1, -6l 2, -6l 2, -6l 1, -6l 2, -6l 2, -7l 1, -6l 2, -7l 2, -6l 1, -7l 2, -7l 1, -7l 2, -7l 2, -8l 1, -7l 2, -7l 2, -8l 1, -8l 2, -7l 1, -8l 2, -8l 2, -8v -4"
+ fill="none" stroke="#ff0000" stroke-width="2" stroke-dasharray=" 3, 3"/>
+<path d="M196,338v -318" fill="none" stroke="#ff0000" stroke-dasharray=" 3, 3"/>
 <path d="M278,338v -318" fill="none" stroke="#ff0000" stroke-dasharray=" 3, 3"/>
-<path d="M197,126h 81" fill="none" stroke="#ff0000" stroke-width="5"/>
+<path d="M196,126h 82" fill="none" stroke="#ff0000" stroke-width="5"/>
 <text x="244" y="115" fill="#ff0000" font-size="9" font-family="Helvetica">
  GeV
 </text>

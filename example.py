@@ -10,7 +10,7 @@ container = []
 
 def content( mHBestFit=130.0, height1SigmaLabel=10.0, color=ROOT.kBlue ):
 	# make mock curve
-	linSpace = [ 110 + i*40.0/1000.0 for i in range(1000) ]
+	linSpace = [ 100 + i*60.0/300.0 for i in range(300) ]
 	likelihood          = [ (x, (x-mHBestFit)*(x-mHBestFit)/25.0) for x in linSpace ]
 	likelihood_statOnly = [ (x, (x-mHBestFit)*(x-mHBestFit)/20.0) for x in linSpace ]
 	# draw curve
