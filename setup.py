@@ -9,7 +9,7 @@ setup(
     long_description=open('README.md').read(),
     author='Sven Kreiss, Kyle Cranmer',
     author_email='sk@svenkreiss.com',
-    install_requires=[],
+    install_requires=['importlib'],
     entry_points={
         'console_scripts': [
         ]
